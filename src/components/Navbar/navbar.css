@@ -1,0 +1,90 @@
+#top{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    height: 13vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(46, 44, 44);
+}
+.navbar h2{
+    display: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+}
+
+ul li{
+    padding-left: 40px;  
+    list-style: none;  
+    font-size: 20px;
+
+   
+    
+}
+ul{
+    text-decoration: none;
+    transition: ease-in 2s;
+
+}
+
+ul li a{
+    color: white;
+}
+
+ul :hover{
+    color: rgba(235, 187, 13, 0.392);
+}
+
+@media screen and (max-width:750px){
+    h1{
+        position: absolute;
+        left: 46px;
+    }
+    .menu{
+        /* display: none; */
+        margin-top: 100px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        font-size: 25px;
+    }
+
+    .navbar h1{
+        text-align: center;
+        position: absolute;
+        top: 5px;
+        left: 36%;
+        font-size: 35px;
+    }
+    .navbar h2{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
+
+    .navbar{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* margin-bottom: 50px; */
+
+    }
+    
+}
+
+

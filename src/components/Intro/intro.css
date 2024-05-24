@@ -1,0 +1,87 @@
+#About{
+    margin-bottom: 180px;
+    
+
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    width: 100vw;
+    height: 87vh;
+}
+
+.hello{
+    font-size: 20px;
+}
+
+.introText{
+    font-size: 30px;
+}
+
+.introName{
+ color: rgb(170, 83, 83);
+}
+
+.introPara{
+   font-size: 18px;
+}
+.btn{
+    padding: 5px 15px;
+    margin-top: 15px;
+    background-color:white ;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.btn:hover{
+    background-color:rgb(170, 83, 83) ;
+    color: white;
+}
+
+.left{
+    margin-left: 50px;
+    margin-right: -10px;
+}
+
+.right{
+    margin-right: 40px;
+    margin-left: -10px;
+}
+.right img{
+    border-radius: 50%;
+}
+
+@media screen and (max-width:750px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        justify-content: center;
+        /* text-align: center; */
+        align-items: center;
+    }
+    .hello{
+        font-size: 18px;
+    }
+    
+    .introText{
+        font-size: 25px;
+    }
+    .introPara{
+        font-size: 15px;
+     }
+    .left{
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    .right{
+        margin-left: 50px;
+    }
+    
+}
